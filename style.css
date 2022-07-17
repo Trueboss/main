@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Epilogue', sans-serif ;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    padding: 0px;
+}
+a{
+    padding: 0 15px;
+    margin: 0 15px;
+    color: gray;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+.header{
+    display: flex;
+    width: 100vw;
+}
+.logo{
+    position: relative;
+    left: 100px;
+    top: 15px
+    /* padding: 30px 80px;
+    margin: 0; */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 135px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.btn1{
+    border-style: none;
+    margin: 0 15px;
+    font-size: 18px;
+    background-color: inherit;
+    cursor: pointer;
+}
+.btn2{
+    margin: 0 15px;
+    font-size: 18px;
+    padding: 15px 25px;
+    border-radius: 15px;
+    background-color: inherit;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: yellow;
+}
+.btn2:active{
+    transform: scale(0.9);
+}
+.btn3{
+    position: relative;
+    top: 25px;
+    font-size: 18px;
+    border-width: 1.5px;
+    padding: 25px 30px;
+    border-radius: 15px;
+    background-color: inherit;
+    cursor: pointer;
+    font-weight: 700;
+    margin-bottom: 100px;
+    transform: all 3s ease-in;
+}
+.btn3:hover{
+    background-color: hsl(236, 42%, 55%);
+    color: white;
+}
+.btn3:active{
+    transform: scale(0.9);
+}
+main{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+}
+img{
+    position: relative;
+    left: 5em;
+}
+/* .img{
+    background-image: url('/images/image-hero-desktop.png');
+    background-size: cover;
+    background-repeat: repeat;
+    width: 35%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 5em;
+    margin-top: 0;
+} */
+.content{
+    width: 35%;
+    height: 100%;
+}
+h1{
+    font-size: 4.5em;
+}
+p{
+    font-size: 18px;
+    color: gray;
+}
+.clients{
+    display: flex;
+    justify-content: space-evenly;
+}
+.svg-down1{
+    position: absolute;
+    left: 327px;
+    top: 30px;
+}
+.svg-down2{
+    position: absolute;
+    left: 475px;
+    top: 30px;
+}
+.svg-up1{
+    position: relative;
+    left: 3px;
+    bottom: 1px;
+    visibility: hidden;
+}
+.svg-up2{
+    position: relative;
+    left: 3px;
+    bottom: 1px;
+    visibility: hidden;
+}
+.features{
+    padding-left: 10px;
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px 5px rgb(209, 207, 207);
+    visibility: hidden;
+}
+.features ul li{
+    list-style: none;
+    line-height: 30px;
+}
+.features.active{
+    visibility: visible;
+}
+.company{
+    position: absolute;
+    top: 70px;
+    left: 380px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px 5px rgb(209, 207, 207);
+    visibility: hidden;
+}
+.company ul li{
+    list-style: none;
+    line-height: 30px;
+}
+.company.active{
+    visibility: visible;
+}
